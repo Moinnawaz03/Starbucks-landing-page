@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="circle"></div>
+    <!-- navbar  -->
+    <ul class="nav justify-content-end">
+      <img src="./images/logo.png" alt="logo img" class="logo" />
+
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DELIVERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+    </ul>
+    <!-- navbar  -->
+    <div class="content">
+      <div class="container">
+        <div class="textBox">
+          <h2>It's not just coffee <br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae eos
+            commodi odio reiciendis in sequi, est non deserunt ut. Facilis
+            nesciunt fugit aut deleniti vitae iste, voluptatem reiciendis veniam
+            tempora.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+      <div class="imgBox">
+        <img src="./images/img1.png" alt="" class="starbucks" />
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./images/thumb1.png"
+            alt=""
+            onclick="imgSlider('img1.png');
+          changeCircleColor('#017143')" />
+        </li>
+        <li>
+          <img
+            src="./images/thumb2.png"
+            alt=""
+            onclick="imgSlider('img2.png');
+            changeCircleColor('#eb7495') " />
+        </li>
+        <li>
+          <img
+            src="./images/thumb3.png"
+            alt=""
+            onclick="imgSlider('img3.png');
+            changeCircleColor('#d752b1') " />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
